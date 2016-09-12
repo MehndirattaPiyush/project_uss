@@ -1,0 +1,30 @@
+.vote-panel .row{
+	margin:40px 0px 50px;
+}
+
+.fa-circle{
+	color: #ccc;
+}
+/*.fa-circle:hover{
+	color:green;
+}*/
+
+.fa-hover:hover{
+	color:green;
+}
+
+@media(max-width:768px)
+{	.section-heading{
+		font-size:24px;
+	}
+	.section-subheading{
+	font-size: 16px;
+	}
+	.vote-panel .row{
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	.col-xs-6{
+		margin-bottom: 15px;
+	}
+}
