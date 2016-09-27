@@ -1,6 +1,15 @@
+ 
  .container{
- 	margin-top:150px;
+ 	transition-duration:1.5s;
+ 	-moz-transition-duration:1.5s;
+ 	-webkit-transition-duration:1.5s;
+
+ 	animation:easeIn;
+ 	-moz-animation:easeIn;
+ 	-webkit-animation:easeIn;
+
  }
+
 .form-control{
 	border:0px;
 	border-bottom: 1px solid #ccc;
@@ -9,13 +18,30 @@
 
 .form-control:hover, .form-control:focus{
 	border-color: #66afe9;
+	transition-duration:1s;
+	-webkit-transition-duration:1s;
+	-moz-transition-duration:1s;
+
 }
 
 .form-control:hover, .form-control:focus, .form-control{
-	-webkit-box-shadow:inset 0 0px 0px rgb(0, 0, 0);
-	box-shadow: inset 0 0px 0px rgb(0, 0, 0);
+	-webkit-box-shadow:none;
+	box-shadow: none;
+
 }
 
 .btn-success{
 	border-radius: 2px;
+
+}
+@media (max-width: 662px){
+	.container{
+		margin-top: 50px;
+	}
+}
+@media (min-width: 768px){
+	.container{
+		margin-top:150px;
+
+	}
 }

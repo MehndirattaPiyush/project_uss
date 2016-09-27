@@ -1,0 +1,67 @@
+body{
+	background-color:rgb(241,241,241);
+}
+.container{
+	margin:150px auto;
+}
+.admin-logo .img-circle{
+	margin: 0 auto;
+	padding: 4px;
+	border:3px solid rgb(130,177,255);
+}
+ .fa-circle-thin{
+	font-size: 110px;
+	display: block;
+	text-align: center;
+}
+.login-panel{
+	margin-top: 20px;
+	border-radius:0px;
+}
+.panel-body{
+	margin-top: 15px;
+	padding:25px;
+	padding-top: 20px;
+}
+label{
+	font-weight: 100;
+	color: #72777c;
+	font-size: 1.1em
+}
+.form-control{
+	font-size: 24px;
+	padding:3px;
+	height: auto;
+	background-color: #fbfbfb;
+	border-radius:0px;
+
+}
+.form-control:hover, .form-control:focus{
+	-webkit-box-shadow:none;
+	box-shadow: none;
+	-moz-box-shadow:none;
+}
+.checkbox{
+	float:left;
+}
+.btn-success{
+	border-radius: 20px;
+	float:right;
+	margin-top:3px;
+}
+#backnav{
+	margin:15px 0;
+	padding: 0 27px;
+}
+#backnav a:hover{
+	text-decoration: none;
+}
+
+@media (max-width: 662px ){
+	.container{
+		margin: 40px auto;
+	}
+	.login-panel{
+		margin-top: 10px;
+	}
+}
