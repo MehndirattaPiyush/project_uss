@@ -4,7 +4,7 @@ session_start();
 
 $servername = "localhost"; 
 $username = "root";
-$password = "";
+$password = "pankaj_96";
 $dbname = "cr_nomination";
 // Create connection 
 $conn = mysqli_connect($servername, $username, $password, $dbname);
@@ -27,8 +27,7 @@ if($results = $conn->query($sql))
 	
 	while ($row = $results->fetch_assoc()) 
 	{
-	echo "<input type='radio' name='elect' value='".$row['roll_no']."'>".$row['name']."   ".$row['roll_no']."<br>";
-		
+	echo "<input type='radio' name='elect' value='".$row['roll_no']."'>".$row['name']."   ".$row['roll_no']."<br>";	
 	}
 	echo"<input type='submit' value='Submit'>";
 	echo"</form>";
